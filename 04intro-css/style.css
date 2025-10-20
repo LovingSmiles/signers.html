@@ -1,0 +1,117 @@
+/* External stylesheet for Unit 04 - American Flag Theme */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+  
+    /* Flag-inspired margin background */
+    background: linear-gradient(
+      to right,
+      #b22234 0%,     /* red stripe */
+      #ffffff 20%,    /* white stripe */
+      #3c3b6e 40%,    /* blue stripe */
+      #ffffff 60%,    /* white stripe */
+      #b22234 80%,    /* red stripe */
+      #ffffff 100%    /* white stripe */
+    );
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color: #3c3b6e; /* deep blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 5px solid #b22234;
+  }
+  
+  .subtitle {
+    font-style: normal;
+    color: #ffdddd;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #b22234;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  nav li a:hover {
+    background-color: #3c3b6e;
+  }
+  
+  nav a.active {
+    background-color: #143d59;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    border: 4px solid #3c3b6e; /* blue outer border */
+  }
+  
+  h2 {
+    color: #b22234;
+    border-bottom: 2px solid #3c3b6e;
+    padding-bottom: 5px;
+  }
+  
+  .highlight {
+    background-color: #e7f5ff;
+    border-left: 5px solid #b22234;
+    padding: 10px;
+  }
+  
+  #unique {
+    border: 2px dashed #3c3b6e;
+    padding: 10px;
+    background-color: #f0f9ff;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    background-color: #b22234;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3c3b6e;
+  }
+  
+  footer {
+    background-color: #3c3b6e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    margin-top: 30px;
+    border-top: 5px solid #b22234;
+  }
+  
+  /* Demonstrate pseudo-classes */
+  a:visited {
+    color: #ffcccc;
+  }
