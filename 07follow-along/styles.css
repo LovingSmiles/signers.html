@@ -52,8 +52,6 @@ nav .active a {
 /* Large Screen format */
 @media only screen and (min-width: 601px){
 
-
-
 nav {
     border-top: solid 1px #E0E6E6;
     
@@ -129,7 +127,16 @@ main a {
     height: auto;
 }
 
+img.hero {
+    width: 100%;
+    margin: 0;
+}
 
+img.hero {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
 
 
 /* footer stuff here */
@@ -144,3 +151,17 @@ footer {
 footer a {
     color: #8b5022;
 }
+
+header, nav main, footer{
+        max-width: 64rem;
+        margin: 0 auto;
+}
+
+.angeloGallery img:hover {
+    width: 98%;
+    height: auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+
