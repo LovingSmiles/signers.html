@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="images/johnsons-swim-and-learn-academy.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Johnsons Swim and Learn Academy for swimming lessons, questions, and session details.">
+  <title>Contact Us — Johnsons Swim and Learn Academy</title>
+  <link rel="stylesheet" href="swim.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-flex">
+      <img src="images/johnsons-swim-and-learn-academy.png" alt="Johnsons Swim and Learn Academy Logo" class="logo">
+      <div class="header-text">
+        <p>Call us for more info: 1-385-967-2357</p>
+        <p>Learn how to swim, build confidence, and find peace in the water.</p>
+      </div>
+    </div>
+  </header>
+
+<!-- HERO IMAGE SECTION -->
+<div class="hero" style="background-image: url('images/hero-swim.jpg');">
+  <h1>Welcome to Johnson’s Swim & Learn Academy</h1>
+</div>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="tools.html">Equipment</a> |
+    <a href="aboutswimming.html">About</a> |
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+
+  <!-- Main -->
+  <main>
+    <h2>Sign Up or Ask a Question</h2>
+
+    <figure class="float-img-right">
+      <img src="images/swim-pool.jpg" alt="Calm indoor swimming pool ready for lessons">
+      <figcaption>Imagine your first confident lap in the pool.</figcaption>
+    </figure>
+
+    <p>Fill out the form below to ask questions or reserve your spot in our next swimming session. We will contact you as soon as possible with more details.</p>
+
+    <form action="thanks.html" method="get">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="John Smith" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="johnsmith@example.com" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="385-555-1234"><br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Swim Preferences</legend>
+
+        <p>Choose your swimming level:</p>
+        <label><input type="radio" name="level" value="beginner" required> Beginner</label>
+        <label><input type="radio" name="level" value="intermediate"> Intermediate</label>
+        <label><input type="radio" name="level" value="advanced"> Advanced</label><br><br>
+
+        <p>What are you interested in?</p>
+        <label><input type="checkbox" name="interest" value="lessons"> Private Lessons</label>
+        <label><input type="checkbox" name="interest" value="training"> Endurance Training</label>
+        <label><input type="checkbox" name="interest" value="therapy"> Water Therapy</label><br><br>
+
+        <label for="session">Preferred Session:</label>
+        <select id="session" name="session">
+          <option>Morning</option>
+          <option>Afternoon</option>
+          <option>Evening</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Notes</legend>
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40" placeholder="Tell us about your goals or questions..."></textarea>
+      </fieldset>
+
+      <input type="submit" value="Submit Form" class="submit-btn">
+    </form>
+
+    <div class="clear-floats"></div>
+
+    <!-- Contact & Location Info -->
+    <section>
+      <h2>Visit or Contact Us</h2>
+
+      <!-- address tag for assignment -->
+      <address>
+        <strong>Johnsons Swim and Learn Academy</strong><br>
+        Provo Recreation Center<br>
+        320 W 500 N<br>
+        Provo, UT 84601<br>
+        United States
+      </address>
+
+      <p>
+        Phone: <a href="tel:18018526620">(801) 852-6620</a><br>
+        Email: <a href="mailto:info@johnsonsswimacademy.com">info@johnsonsswimacademy.com</a>
+      </p>
+
+      <p>Hours: Monday – Saturday, 5:00 AM – 10:00 PM</p>
+
+      <section class="flyer-download" style="text-align:center; margin-top:25px;">
+        <h2>Download Our Swim Academy Flyer</h2>
+        <p>Click below to view or save our one-page program flyer.</p>
+      
+        <a href="johnsons-swim-flyer.pdf" target="_blank" rel="noopener">
+          <img src="images/johnsons-swim-and-learn-academy.png"
+               alt="Flyer Preview"
+               style="width:160px; cursor:pointer;">
+               <p>
+                <a href="images/johnsons-swim-flyer.pdf" target="_blank">Our Swim Flyer PDF</a>
+              </p>
+        </a>
+      
+      </section>
+
+      <p>
+        <!-- second external link to a free swimming instruction booklet -->
+        <a href="https://resources.fina.org/fina/document/2021/02/15/a078b8d4-ff35-4205-a305-12e58c8e2e1b/download_swimming_for_all_-_swimming_for_life_manual.pdf"
+           target="_blank" rel="noopener">
+          📘 Download the free “Swimming for All – Swimming for Life” learn-to-swim manual
+        </a>
+      </p>
+
+      <!-- Embedded map visible on the page -->
+      <h3>Map & Directions</h3>
+      <iframe
+        class="map-embed"
+        src="https://www.google.com/maps?q=320+W+500+N,+Provo,+UT+84601&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Johnsons Swim and Learn Academy — Building Confidence One Stroke at a Time.</p>
+  </footer>
+  
+</body>
+</html>
